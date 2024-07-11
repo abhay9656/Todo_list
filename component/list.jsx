@@ -31,6 +31,14 @@ const list = () => {
             <Text>b</Text>
             </View>
         </View>
+        <View style={{flex:1,flexDirection:'row',}}>
+            <View style={styles.flex}>
+                <Text>A</Text>
+            </View>
+            <View style={[styles.flex,{marginLeft:10}]} >
+            <Text>b</Text>
+            </View>
+        </View>
     </View>
   )
 }
