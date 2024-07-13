@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import List from './component/list'
+import All from './component/All'
 
 export default function App() {
   return (
   <>
-  <List/>
+  <All/>
+  {/* <List/> */}
   </>
   );
 }
