@@ -11,7 +11,7 @@ const All = () => {
             <Text style={{color:'white',marginTop:10}}>23 Task</Text>
         </View>
         <View style={styles.flex}>
-             <Text>Late</Text>
+             <Text style={{padding:10,fontSize:20}}>Late</Text>
         </View> 
     </View>
   )
