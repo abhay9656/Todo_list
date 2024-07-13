@@ -6,8 +6,8 @@ import All from './component/All'
 export default function App() {
   return (
   <>
-  <All/>
-  {/* <List/> */}
+  {/* <All/> */}
+ <List/> 
   </>
   );
 }
